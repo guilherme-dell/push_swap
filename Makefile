@@ -18,7 +18,7 @@ FT_PRINTF = libs/ft_printf/libftprintf.a
 all:$(NAME)
 
 $(NAME):${FT_PRINTF}
-	@$(CC) $(INCLUDES) $(SWAP_SRC) $(FT_PRINTF) -o $(NAME)
+	@$(CC) $(INCLUDES) $(SWAP_SRC) $(ULTIS_SRC) $(FT_PRINTF) -o $(NAME)
 	@echo "$(GREEN)push_swap compiled 🔋 $(RESET)"
 
 $(FT_PRINTF):
