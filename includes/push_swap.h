@@ -6,7 +6,7 @@
 /*   By: gnuncio- <gnuncio-@student.42sp.org.br>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/06/27 22:27:01 by gnuncio-          #+#    #+#             */
-/*   Updated: 2022/06/28 00:19:45 by gnuncio-         ###   ########.fr       */
+/*   Updated: 2022/07/27 03:11:14 by gnuncio-         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -15,6 +15,7 @@
 
 //INCLUDES
 # include <unistd.h>
+# include <stdio.h>
 # include "ft_printf.h"
 
 //PROTOTYPES
